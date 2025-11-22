@@ -1,39 +1,15 @@
 <?php
-$hafta = 5;
-switch  ($hafta){ 
-case 1;
-echo  "dushanba";
-break;
 
-case 2;
-echo  "seshanba";
-break;
+$a = 18;
 
-case 3;
-echo  "chorshanba";
-break;
-
-case 4;
-echo  "payshanba";
-break;
-
-case 5;
-echo  "juma";
-break;
-
-case 6;
-echo  "shanba";
-break;
-
-case 7;
-echo  "yakshanba";
-break;
-
-default:
-echo  "bu yerda hafta kuni yoq";
-break;
-
-
+if ($a > 0 && $a < 15) {
+    echo $a ** 3;
+}
+ elseif ($a > 10 && $a <= 20) {
+    echo $a ** 3;
+} 
+else {
+    echo "bunday son kiritish mukin emas";
 }
 
-
+?>
